@@ -1,0 +1,182 @@
+{
+    "correlations": {
+        "felt_rested": {
+            "felt_rested": 1.0,
+            "cognitive_performance_score": 0.874913359905837,
+            "sleep_duration": 0.8540496020206755,
+            "activity_work_ratio": 0.006101224751530619,
+            "caffeine_intake_mg": 0.004964210236488287,
+            "heart_rate_variability": 0.004150227119071543,
+            "physical_activity_minutes": 0.0037451339788878765,
+            "age": 0.003092900713750801,
+            "steps_per_day": 0.0026105268742538184,
+            "blood_pressure_diastolic": 0.0018607752374058398,
+            "diet_quality": 0.0015623100649776918,
+            "screen_time_hours": 0.0007667019567427641,
+            "social_media_hours": 0.0005946502748334206,
+            "alcohol_consumption_drinks": -0.0007587114061454672,
+            "blood_pressure_systolic": -0.0026150815948560433,
+            "bmi": -0.003108854005424774,
+            "commute_time_minutes": -0.003941820841861878,
+            "heart_rate_resting": -0.006015355456303384,
+            "work_hours_per_day": -0.006520755078761361,
+            "sleep_quality_score": -0.008409250012447354,
+            "total_screen_time_hours": -0.029588744682529894,
+            "night_screen_time_minutes": -0.16047961218290624,
+            "stress_level": -0.49676140586509915
+        },
+        "cognitive_performance_score": {
+            "cognitive_performance_score": 1.0,
+            "felt_rested": 0.874913359905837,
+            "sleep_duration": 0.7463714697568763,
+            "physical_activity_minutes": 0.35508343177986695,
+            "activity_work_ratio": 0.2624399667595867,
+            "caffeine_intake_mg": 0.005506519051925285,
+            "blood_pressure_diastolic": 0.0034557772339649487,
+            "diet_quality": 0.0033378407138615496,
+            "age": 0.003245527508090073,
+            "heart_rate_variability": 0.0027629120525841577,
+            "steps_per_day": 0.002705417172161198,
+            "social_media_hours": 0.002037226858876064,
+            "screen_time_hours": -0.0004539293728024258,
+            "blood_pressure_systolic": -0.0012620147950198643,
+            "bmi": -0.0025214773048143884,
+            "heart_rate_resting": -0.0033305902611638454,
+            "commute_time_minutes": -0.004869333673126648,
+            "sleep_quality_score": -0.008405936304073103,
+            "work_hours_per_day": -0.008622067168832626,
+            "total_screen_time_hours": -0.02716185183943416,
+            "night_screen_time_minutes": -0.14130421112663677,
+            "alcohol_consumption_drinks": -0.33129987531595784,
+            "stress_level": -0.4358652787752255
+        }
+    },
+    "train_vs_test_metrics": {
+        "felt_rested": {
+            "RandomForest": {
+                "train": {
+                    "mae": 0.05837400000000006,
+                    "rmse": 0.12322559596122878,
+                    "r2": 0.9999500067272998
+                },
+                "test": {
+                    "mae": 0.15091200000000005,
+                    "rmse": 0.3202612995664634,
+                    "r2": 0.9996622611149744
+                }
+            },
+            "XGBoost": {
+                "train": {
+                    "mae": 0.2286534607410431,
+                    "rmse": 0.30343622865420367,
+                    "r2": 0.9996968507766724
+                },
+                "test": {
+                    "mae": 0.2467021942138672,
+                    "rmse": 0.3342200668972442,
+                    "r2": 0.9996321797370911
+                }
+            }
+        },
+        "cognitive_performance_score": {
+            "RandomForest": {
+                "train": {
+                    "mae": 0.053326375000000155,
+                    "rmse": 0.09703484554529883,
+                    "r2": 0.9998521753508446
+                },
+                "test": {
+                    "mae": 0.14250650000000006,
+                    "rmse": 0.2629789440240416,
+                    "r2": 0.9989141390409955
+                }
+            },
+            "XGBoost": {
+                "train": {
+                    "mae": 0.24966467916965485,
+                    "rmse": 0.31099435966902805,
+                    "r2": 0.9984815716743469
+                },
+                "test": {
+                    "mae": 0.278971791267395,
+                    "rmse": 0.3500058893151027,
+                    "r2": 0.9980765581130981
+                }
+            }
+        }
+    },
+    "feature_importances": {
+        "felt_rested": {
+            "RandomForest": {
+                "sleep_duration": 0.7303063183753064,
+                "stress_level": 0.2422940621202913,
+                "night_screen_time_minutes": 0.02689782586429173,
+                "steps_per_day": 2.6464252655933873e-05,
+                "heart_rate_variability": 2.574154732401817e-05,
+                "caffeine_intake_mg": 2.5097136964829053e-05,
+                "work_hours_per_day": 2.4491567764972366e-05,
+                "age": 2.3914966951003447e-05,
+                "commute_time_minutes": 2.359343330010911e-05,
+                "bmi": 2.3566676752383843e-05,
+                "blood_pressure_systolic": 2.3318723201983704e-05,
+                "social_media_hours": 2.3277246051465817e-05,
+                "heart_rate_resting": 2.281216712062006e-05,
+                "blood_pressure_diastolic": 2.2322019253421595e-05,
+                "activity_work_ratio": 2.014643048866959e-05
+            },
+            "XGBoost": {
+                "sleep_duration": 0.6750538349151611,
+                "stress_level": 0.291290283203125,
+                "night_screen_time_minutes": 0.03077664040029049,
+                "medication_usage_Other": 0.00019690142653416842,
+                "gender_Non-binary": 0.00010763704631244764,
+                "country_USA": 8.77349593793042e-05,
+                "medication_usage_missing": 8.140323188854381e-05,
+                "occupation_Teacher": 8.059647370828316e-05,
+                "sleep_disorder_risk_Low": 7.514689059462398e-05,
+                "work_type_Remote": 7.496675243601203e-05,
+                "workout_type_Yoga": 6.999004108365625e-05,
+                "bedtime_02:00": 6.982785271247849e-05,
+                "wakeup_time_10:00": 6.725643470417708e-05,
+                "smoking_status_Former": 6.215557368705049e-05,
+                "bedtime_01:00": 6.064640547265299e-05
+            }
+        },
+        "cognitive_performance_score": {
+            "RandomForest": {
+                "felt_rested": 0.7662522614636565,
+                "physical_activity_minutes": 0.12454887091561692,
+                "alcohol_consumption_drinks": 0.10731309185085927,
+                "activity_work_ratio": 0.0006721692446757111,
+                "caffeine_intake_mg": 6.58139118545249e-05,
+                "steps_per_day": 6.461616162362512e-05,
+                "bmi": 6.110142117670167e-05,
+                "blood_pressure_systolic": 5.930116617680592e-05,
+                "heart_rate_variability": 5.86530513970029e-05,
+                "age": 5.775490536632089e-05,
+                "commute_time_minutes": 5.763377984136426e-05,
+                "heart_rate_resting": 5.548188046719967e-05,
+                "night_screen_time_minutes": 5.52990746913221e-05,
+                "blood_pressure_diastolic": 5.468899710282939e-05,
+                "sleep_duration": 5.393800139753062e-05
+            },
+            "XGBoost": {
+                "felt_rested": 0.7000242471694946,
+                "alcohol_consumption_drinks": 0.18874698877334595,
+                "physical_activity_minutes": 0.10341816395521164,
+                "activity_work_ratio": 0.0010707731125876307,
+                "medication_usage_Other": 0.00019949802663177252,
+                "medication_usage_Sleep": 0.00015117379371076822,
+                "workout_type_Yoga": 0.00014557735994458199,
+                "gender_Non-binary": 0.00014496073708869517,
+                "workout_type_Strength": 0.00014254114648792893,
+                "occupation_Unemployed": 0.00013720060815103352,
+                "wakeup_time_07:00": 0.00012377691746223718,
+                "wakeup_time_10:00": 0.00012301169044803828,
+                "country_USA": 0.0001229898916790262,
+                "smoking_status_Never": 0.00012213876470923424,
+                "country_UK": 0.00012124849308747798
+            }
+        }
+    }
+}

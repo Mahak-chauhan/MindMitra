@@ -1,0 +1,14 @@
+ml_env/
+node_modules/
+.env
+.env.*
+!.env.example
+
+python311/
+*.pyc
+__pycache__/
+
+python_installer.exe
+
+.DS_Store
+*.log

@@ -1,0 +1,296 @@
+{
+    "local_explanations_target1": [
+        {
+            "target": "felt_rested",
+            "base_value": 43.55839538574219,
+            "prediction": 24.243127822875977,
+            "ranked_contributions": [
+                {
+                    "feature": "sleep_duration",
+                    "transformed_value": 5.8,
+                    "contribution": -11.94804859161377,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "stress_level",
+                    "transformed_value": 8.0,
+                    "contribution": -7.3916850090026855,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "night_screen_time_minutes",
+                    "transformed_value": 46.0,
+                    "contribution": 0.0864756628870964,
+                    "direction": "positive"
+                }
+            ]
+        },
+        {
+            "target": "felt_rested",
+            "base_value": 43.55839538574219,
+            "prediction": 45.96685791015625,
+            "ranked_contributions": [
+                {
+                    "feature": "sleep_duration",
+                    "transformed_value": 7.7,
+                    "contribution": 6.993154048919678,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "stress_level",
+                    "transformed_value": 7.0,
+                    "contribution": -4.501893997192383,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "night_screen_time_minutes",
+                    "transformed_value": 45.0,
+                    "contribution": -0.07478060573339462,
+                    "direction": "negative"
+                }
+            ]
+        },
+        {
+            "target": "felt_rested",
+            "base_value": 43.55839538574219,
+            "prediction": 74.81769561767578,
+            "ranked_contributions": [
+                {
+                    "feature": "sleep_duration",
+                    "transformed_value": 9.4,
+                    "contribution": 23.995861053466797,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "stress_level",
+                    "transformed_value": 4.0,
+                    "contribution": 4.4399614334106445,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "night_screen_time_minutes",
+                    "transformed_value": 13.0,
+                    "contribution": 2.8177340030670166,
+                    "direction": "positive"
+                }
+            ]
+        },
+        {
+            "target": "felt_rested",
+            "base_value": 43.55839538574219,
+            "prediction": 42.27425765991211,
+            "ranked_contributions": [
+                {
+                    "feature": "stress_level",
+                    "transformed_value": 8.0,
+                    "contribution": -7.472055912017822,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "sleep_duration",
+                    "transformed_value": 7.7,
+                    "contribution": 7.026700496673584,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "night_screen_time_minutes",
+                    "transformed_value": 51.0,
+                    "contribution": -0.9095359444618225,
+                    "direction": "negative"
+                }
+            ]
+        },
+        {
+            "target": "felt_rested",
+            "base_value": 43.55839538574219,
+            "prediction": 36.76347732543945,
+            "ranked_contributions": [
+                {
+                    "feature": "sleep_duration",
+                    "transformed_value": 6.1,
+                    "contribution": -9.06982135772705,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "night_screen_time_minutes",
+                    "transformed_value": 3.0,
+                    "contribution": 3.850346326828003,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "stress_level",
+                    "transformed_value": 6.0,
+                    "contribution": -1.5623959302902222,
+                    "direction": "negative"
+                }
+            ]
+        }
+    ],
+    "local_explanations_target2": [
+        {
+            "target": "cognitive_performance_score",
+            "base_value": 59.44232940673828,
+            "prediction": 52.0941047668457,
+            "ranked_contributions": [
+                {
+                    "feature": "felt_rested",
+                    "transformed_value": 24.0,
+                    "contribution": -7.680360317230225,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "physical_activity_minutes",
+                    "transformed_value": 65.0,
+                    "contribution": 2.131312131881714,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "alcohol_consumption_drinks",
+                    "transformed_value": 2.0,
+                    "contribution": -1.8098491430282593,
+                    "direction": "negative"
+                }
+            ]
+        },
+        {
+            "target": "cognitive_performance_score",
+            "base_value": 59.44232940673828,
+            "prediction": 60.87818908691406,
+            "ranked_contributions": [
+                {
+                    "feature": "felt_rested",
+                    "transformed_value": 46.0,
+                    "contribution": 1.0958495140075684,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "alcohol_consumption_drinks",
+                    "transformed_value": 1.0,
+                    "contribution": 0.18879500031471252,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "physical_activity_minutes",
+                    "transformed_value": 46.0,
+                    "contribution": 0.14722667634487152,
+                    "direction": "positive"
+                }
+            ]
+        },
+        {
+            "target": "cognitive_performance_score",
+            "base_value": 59.44232940673828,
+            "prediction": 66.24415588378906,
+            "ranked_contributions": [
+                {
+                    "feature": "felt_rested",
+                    "transformed_value": 75.0,
+                    "contribution": 12.614652633666992,
+                    "direction": "positive"
+                },
+                {
+                    "feature": "physical_activity_minutes",
+                    "transformed_value": 6.0,
+                    "contribution": -3.6903560161590576,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "alcohol_consumption_drinks",
+                    "transformed_value": 2.0,
+                    "contribution": -1.9852386713027954,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "activity_work_ratio",
+                    "transformed_value": 0.0158311345646438,
+                    "contribution": -0.13812792301177979,
+                    "direction": "negative"
+                }
+            ]
+        },
+        {
+            "target": "cognitive_performance_score",
+            "base_value": 59.44232940673828,
+            "prediction": 52.13639450073242,
+            "ranked_contributions": [
+                {
+                    "feature": "physical_activity_minutes",
+                    "transformed_value": 0.0,
+                    "contribution": -4.479583740234375,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "alcohol_consumption_drinks",
+                    "transformed_value": 2.0,
+                    "contribution": -1.9450007677078247,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "felt_rested",
+                    "transformed_value": 42.0,
+                    "contribution": -0.832457423210144,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "activity_work_ratio",
+                    "transformed_value": 0.0,
+                    "contribution": -0.07192365825176239,
+                    "direction": "negative"
+                }
+            ]
+        },
+        {
+            "target": "cognitive_performance_score",
+            "base_value": 59.44232940673828,
+            "prediction": 54.21427917480469,
+            "ranked_contributions": [
+                {
+                    "feature": "physical_activity_minutes",
+                    "transformed_value": 0.0,
+                    "contribution": -4.528894901275635,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "felt_rested",
+                    "transformed_value": 37.0,
+                    "contribution": -2.725973606109619,
+                    "direction": "negative"
+                },
+                {
+                    "feature": "alcohol_consumption_drinks",
+                    "transformed_value": 0.0,
+                    "contribution": 2.045070171356201,
+                    "direction": "positive"
+                }
+            ]
+        }
+    ],
+    "global_explanations_target1": [
+        {
+            "feature": "sleep_duration",
+            "mean_abs_contribution": 11.768519401550293
+        },
+        {
+            "feature": "stress_level",
+            "mean_abs_contribution": 7.174221992492676
+        },
+        {
+            "feature": "night_screen_time_minutes",
+            "mean_abs_contribution": 2.3175153732299805
+        }
+    ],
+    "global_explanations_target2": [
+        {
+            "feature": "felt_rested",
+            "mean_abs_contribution": 5.314239978790283
+        },
+        {
+            "feature": "physical_activity_minutes",
+            "mean_abs_contribution": 2.3040895462036133
+        },
+        {
+            "feature": "alcohol_consumption_drinks",
+            "mean_abs_contribution": 2.133134126663208
+        }
+    ]
+}
